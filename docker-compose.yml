@@ -12,6 +12,8 @@ services:
       - ./data:/app/data
     networks:
       - bot_network
+    ports:
+      - "8000:8000"
 
 networks:
   bot_network:
